@@ -8,5 +8,52 @@ White: #FFF
 */
 
 * {
-    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+nav {
+    position: fixed;
+    height: 70px;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+    float: left;
+    padding: 10px 10px 10px 20px;
+}
+
+.links {
+    display: flex;
+    float: right;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    list-style: none;
+    float: right;
+    padding: 8px;
+}
+
+header {
+    background-image: url("images/landing.jpg");
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 70px;
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 300;
 }
